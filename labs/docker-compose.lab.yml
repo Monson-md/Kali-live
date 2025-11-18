@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  vulnerable-web:
+    build: ./vulnerable_examples/vulnerable-web
+    ports:
+      - "8081:80"
+    networks:
+      - lab_net
+networks:
+  lab_net:
+    driver: bridge

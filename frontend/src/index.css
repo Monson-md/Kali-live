@@ -1,0 +1,13 @@
+
+/* Styles globaux optionnels */
+body {
+  /* Utilisation de la police Inter par défaut pour un look moderne */
+  font-family: 'Inter', sans-serif;
+  color: #1f2937; /* Gris foncé */
+  background-color: #f3f4f6; /* Arrière-plan très clair */
+}
+
+/* Assurer que le conteneur principal prend toute la hauteur */
+#root {
+  min-height: 100vh;
+}
